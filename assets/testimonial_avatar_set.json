@@ -1,0 +1,22 @@
+{
+  "name": "Testimonial Avatar Set",
+  "status": "MISSING",
+  "locale_variants": [
+    "avatar-0.en.jpg",
+    "avatar-0.ar.jpg"
+  ],
+  "final_spec": {
+    "format": "WebP (primary), JPEG (fallback)",
+    "dimensions": "100×100px (circular crop)",
+    "aspect_ratio": "1:1",
+    "max_file_size_bytes": 51200,
+    "retina_required": true,
+    "poster_required": false
+  },
+  "rtl_swap_required": false,
+  "delivery_recommendation": {
+    "owner_role": "design",
+    "deadline_days": 7
+  },
+  "placeholder_filename": "avatar-placeholder-0.jpg"
+}

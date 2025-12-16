@@ -1,0 +1,13 @@
+{
+  "field_name": "footer_copyright",
+  "type": "text",
+  "i18n_key": "footer_copyright",
+  "max_length_en": 100,
+  "max_length_ar": 120,
+  "required": false,
+  "validation": {
+    "min": 0,
+    "max": 100
+  },
+  "default_value": "\u00a9 2024 Your Company Name. All rights reserved."
+}

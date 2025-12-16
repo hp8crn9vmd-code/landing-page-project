@@ -1,0 +1,24 @@
+{
+  "field_name": "client_logo_0",
+  "type": "media",
+  "i18n_key": null,
+  "max_length_en": null,
+  "max_length_ar": null,
+  "required": false,
+  "validation": {
+    "allowed_formats": [
+      "svg",
+      "png",
+      "webp"
+    ]
+  },
+  "default_value": null,
+  "alt_text_key": "client_logo_alt_0",
+  "focal_point": {
+    "x": "percentage",
+    "y": "percentage"
+  },
+  "locale_variants": [
+    "client-logo-0.svg"
+  ]
+}

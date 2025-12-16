@@ -1,0 +1,22 @@
+{
+  "name": "Logo - Full Color",
+  "status": "MISSING",
+  "locale_variants": [
+    "logo-full-color.en.svg",
+    "logo-full-color.ar.svg"
+  ],
+  "final_spec": {
+    "format": "SVG (primary), PNG (fallback)",
+    "dimensions": "min_height: 40px, width: variable",
+    "aspect_ratio": "flexible (3:1 horizontal recommended)",
+    "max_file_size_bytes": 102400,
+    "retina_required": true,
+    "poster_required": false
+  },
+  "rtl_swap_required": true,
+  "delivery_recommendation": {
+    "owner_role": "design",
+    "deadline_days": 7
+  },
+  "placeholder_filename": "logo-full-color-placeholder.svg"
+}

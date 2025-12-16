@@ -1,0 +1,22 @@
+{
+  "name": "Hero Image (Stock)",
+  "status": "MISSING",
+  "locale_variants": [
+    "hero-background.en.jpg",
+    "hero-background.ar.jpg"
+  ],
+  "final_spec": {
+    "format": "WebP (primary), JPEG (fallback)",
+    "dimensions": "1920×1080px (16:9), 2560×1080px (21:9)",
+    "aspect_ratio": "16:9, 21:9, 1:1",
+    "max_file_size_bytes": 256000,
+    "retina_required": true,
+    "poster_required": false
+  },
+  "rtl_swap_required": false,
+  "delivery_recommendation": {
+    "owner_role": "design",
+    "deadline_days": 7
+  },
+  "placeholder_filename": "hero-placeholder-16x9.jpg"
+}

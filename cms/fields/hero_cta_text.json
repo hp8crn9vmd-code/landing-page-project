@@ -1,0 +1,13 @@
+{
+  "field_name": "hero_cta_text",
+  "type": "text",
+  "i18n_key": "hero_cta",
+  "max_length_en": 20,
+  "max_length_ar": 25,
+  "required": true,
+  "validation": {
+    "min": 2,
+    "max": 20
+  },
+  "default_value": "Start Free Trial"
+}

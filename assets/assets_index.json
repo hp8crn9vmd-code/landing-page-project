@@ -1,0 +1,41 @@
+{
+  "generated_at": "2025-12-16T17:29:55.051289Z",
+  "assets": [
+    {
+      "path": "images/product-screenshot.ar.with-frame.png",
+      "status": "READY",
+      "produced_filenames": [
+        "images/product-screenshot.ar.with-frame.png"
+      ],
+      "meta_path": "images/product-screenshot.ar.with-frame.png.meta.json",
+      "verified_at": "2025-12-16T17:29:55.049957Z"
+    },
+    {
+      "path": "images/product-screenshot@2x.ar.png",
+      "status": "READY",
+      "produced_filenames": [
+        "images/product-screenshot@2x.ar.png"
+      ],
+      "meta_path": "images/product-screenshot@2x.ar.png.meta.json",
+      "verified_at": "2025-12-16T17:29:55.050270Z"
+    },
+    {
+      "path": "images/product-screenshot.ar.no-frame.png",
+      "status": "READY",
+      "produced_filenames": [
+        "images/product-screenshot.ar.no-frame.png"
+      ],
+      "meta_path": "images/product-screenshot.ar.no-frame.png.meta.json",
+      "verified_at": "2025-12-16T17:29:55.050484Z"
+    },
+    {
+      "path": "images/product-screenshot.ar.png",
+      "status": "READY",
+      "produced_filenames": [
+        "images/product-screenshot.ar.png"
+      ],
+      "meta_path": "images/product-screenshot.ar.png.meta.json",
+      "verified_at": "2025-12-16T17:29:55.050633Z"
+    }
+  ]
+}

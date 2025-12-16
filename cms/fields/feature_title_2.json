@@ -1,0 +1,13 @@
+{
+  "field_name": "feature_title_2",
+  "type": "text",
+  "i18n_key": "feature_title_2",
+  "max_length_en": 30,
+  "max_length_ar": 40,
+  "required": true,
+  "validation": {
+    "min": 3,
+    "max": 30
+  },
+  "default_value": "Real-time Analytics"
+}

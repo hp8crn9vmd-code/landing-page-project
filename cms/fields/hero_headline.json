@@ -1,0 +1,13 @@
+{
+  "field_name": "hero_headline",
+  "type": "text",
+  "i18n_key": "hero_headline",
+  "max_length_en": 60,
+  "max_length_ar": 80,
+  "required": true,
+  "validation": {
+    "min": 5,
+    "max": 60
+  },
+  "default_value": "Turn Visitors into Customers"
+}

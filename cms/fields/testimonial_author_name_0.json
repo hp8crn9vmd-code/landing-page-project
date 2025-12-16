@@ -1,0 +1,13 @@
+{
+  "field_name": "testimonial_author_name_0",
+  "type": "text",
+  "i18n_key": "testimonial_author_0",
+  "max_length_en": 50,
+  "max_length_ar": 60,
+  "required": true,
+  "validation": {
+    "min": 2,
+    "max": 50
+  },
+  "default_value": "Jamie Chen"
+}

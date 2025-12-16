@@ -1,0 +1,7 @@
+# Python / Node / general
+__pycache__/
+node_modules/
+.env
+.vscode/
+# وسائط كبيرة (إن لم تستخدم LFS)
+assets/videos/

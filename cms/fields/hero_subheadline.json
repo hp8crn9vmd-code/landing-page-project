@@ -1,0 +1,13 @@
+{
+  "field_name": "hero_subheadline",
+  "type": "richtext",
+  "i18n_key": "hero_subheadline",
+  "max_length_en": 120,
+  "max_length_ar": 160,
+  "required": false,
+  "validation": {
+    "min": 0,
+    "max": 120
+  },
+  "default_value": "A fully customizable template for marketers who move fast."
+}

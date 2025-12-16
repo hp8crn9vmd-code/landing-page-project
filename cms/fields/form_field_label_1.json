@@ -1,0 +1,13 @@
+{
+  "field_name": "form_field_label_1",
+  "type": "text",
+  "i18n_key": "form_field_label_1",
+  "max_length_en": 40,
+  "max_length_ar": 50,
+  "required": true,
+  "validation": {
+    "min": 1,
+    "max": 40
+  },
+  "default_value": "Full Name"
+}

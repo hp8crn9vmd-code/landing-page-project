@@ -1,0 +1,5 @@
+path,issue_type,detail,priority,owner_action
+images/product-screenshot.ar.with-frame.png,REQUIRES_HUMAN_REVIEW,Placeholder created; requires designer to produce native Arabic UI screenshot (not mirrored).,P1,design:review
+images/product-screenshot@2x.ar.png,REQUIRES_HUMAN_REVIEW,Placeholder created; requires designer to produce native Arabic UI screenshot (not mirrored).,P1,design:review
+images/product-screenshot.ar.no-frame.png,REQUIRES_HUMAN_REVIEW,Placeholder created; requires designer to produce native Arabic UI screenshot (not mirrored).,P1,design:review
+images/product-screenshot.ar.png,REQUIRES_HUMAN_REVIEW,Placeholder created; requires designer to produce native Arabic UI screenshot (not mirrored).,P1,design:review
