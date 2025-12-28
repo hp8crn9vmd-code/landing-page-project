@@ -1,0 +1,13 @@
+{
+  "field_name": "form_field_placeholder_0",
+  "type": "text",
+  "i18n_key": "form_field_placeholder_0",
+  "max_length_en": 40,
+  "max_length_ar": 50,
+  "required": false,
+  "validation": {
+    "min": 0,
+    "max": 40
+  },
+  "default_value": "you@company.com"
+}

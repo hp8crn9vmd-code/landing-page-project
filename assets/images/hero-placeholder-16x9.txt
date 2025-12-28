@@ -1,0 +1,6 @@
+Placeholder for Hero Image (Stock)
+Required format: WebP (primary), JPEG (fallback)
+Dimensions: 1920×1080px (16:9) and 2560×1080px (21:9)
+Aspect ratios: 16:9, 21:9, 1:1
+Max file size: 250 KB
+Retina (@2x) versions required

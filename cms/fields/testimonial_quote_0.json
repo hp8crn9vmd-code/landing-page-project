@@ -1,0 +1,13 @@
+{
+  "field_name": "testimonial_quote_0",
+  "type": "richtext",
+  "i18n_key": "testimonial_quote_0",
+  "max_length_en": 200,
+  "max_length_ar": 250,
+  "required": false,
+  "validation": {
+    "min": 10,
+    "max": 200
+  },
+  "default_value": "This cut our launch time from weeks to hours."
+}

@@ -1,0 +1,13 @@
+{
+  "field_name": "spacing_unit",
+  "type": "number",
+  "i18n_key": null,
+  "max_length_en": null,
+  "max_length_ar": null,
+  "required": true,
+  "validation": {
+    "min": 4,
+    "max": 16
+  },
+  "default_value": 8
+}

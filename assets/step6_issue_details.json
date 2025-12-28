@@ -1,0 +1,22 @@
+[
+  {
+    "path": "images/product-screenshot.ar.with-frame.png",
+    "issue_type": "RESOLVED",
+    "detail": "Asset present at images/product-screenshot.ar.with-frame.png; marked RESOLVED on 2025-12-16T17:26:59.168542Z"
+  },
+  {
+    "path": "images/product-screenshot@2x.ar.png",
+    "issue_type": "RESOLVED",
+    "detail": "Asset present at images/product-screenshot@2x.ar.png; marked RESOLVED on 2025-12-16T17:26:59.170167Z"
+  },
+  {
+    "path": "images/product-screenshot.ar.no-frame.png",
+    "issue_type": "RESOLVED",
+    "detail": "Asset present at images/product-screenshot.ar.no-frame.png; marked RESOLVED on 2025-12-16T17:26:59.170595Z"
+  },
+  {
+    "path": "images/product-screenshot.ar.png",
+    "issue_type": "RESOLVED",
+    "detail": "Asset present at images/product-screenshot.ar.png; marked RESOLVED on 2025-12-16T17:26:59.170898Z"
+  }
+]

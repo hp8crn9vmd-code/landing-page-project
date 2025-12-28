@@ -1,0 +1,637 @@
+{
+  "schema_name": "landing_page_template_v1",
+  "version": 1,
+  "fields": [
+    {
+      "field_name": "header_logo_image",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": true,
+      "validation": {
+        "allowed_formats": [
+          "svg",
+          "png"
+        ]
+      },
+      "default_value": "logo-full-color.en.svg",
+      "alt_text_key": "header_logo_alt",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "logo-full-color.en.svg",
+        "logo-full-color.ar.svg"
+      ]
+    },
+    {
+      "field_name": "nav_link_0",
+      "type": "text",
+      "i18n_key": "nav_link_0",
+      "max_length_en": 20,
+      "max_length_ar": 25,
+      "required": true,
+      "validation": {
+        "min": 1,
+        "max": 20
+      },
+      "default_value": "Features"
+    },
+    {
+      "field_name": "nav_link_1",
+      "type": "text",
+      "i18n_key": "nav_link_1",
+      "max_length_en": 20,
+      "max_length_ar": 25,
+      "required": true,
+      "validation": {
+        "min": 1,
+        "max": 20
+      },
+      "default_value": "Pricing"
+    },
+    {
+      "field_name": "nav_link_2",
+      "type": "text",
+      "i18n_key": "nav_link_2",
+      "max_length_en": 20,
+      "max_length_ar": 25,
+      "required": true,
+      "validation": {
+        "min": 1,
+        "max": 20
+      },
+      "default_value": "Contact"
+    },
+    {
+      "field_name": "header_cta",
+      "type": "text",
+      "i18n_key": "header_cta",
+      "max_length_en": 15,
+      "max_length_ar": 20,
+      "required": true,
+      "validation": {
+        "min": 1,
+        "max": 15
+      },
+      "default_value": "Sign In"
+    },
+    {
+      "field_name": "hero_headline",
+      "type": "text",
+      "i18n_key": "hero_headline",
+      "max_length_en": 60,
+      "max_length_ar": 80,
+      "required": true,
+      "validation": {
+        "min": 5,
+        "max": 60
+      },
+      "default_value": "Turn Visitors into Customers"
+    },
+    {
+      "field_name": "hero_subheadline",
+      "type": "richtext",
+      "i18n_key": "hero_subheadline",
+      "max_length_en": 120,
+      "max_length_ar": 160,
+      "required": false,
+      "validation": {
+        "min": 0,
+        "max": 120
+      },
+      "default_value": "A fully customizable template for marketers who move fast."
+    },
+    {
+      "field_name": "hero_background_media",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": true,
+      "validation": {
+        "allowed_formats": [
+          "jpg",
+          "jpeg",
+          "webp",
+          "mp4",
+          "webm"
+        ]
+      },
+      "default_value": "hero-background.en.jpg",
+      "alt_text_key": "hero_background_alt",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "hero-background.en.jpg",
+        "hero-background.ar.jpg"
+      ]
+    },
+    {
+      "field_name": "hero_cta_text",
+      "type": "text",
+      "i18n_key": "hero_cta",
+      "max_length_en": 20,
+      "max_length_ar": 25,
+      "required": true,
+      "validation": {
+        "min": 2,
+        "max": 20
+      },
+      "default_value": "Start Free Trial"
+    },
+    {
+      "field_name": "feature_icon_0",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": true,
+      "validation": {
+        "allowed_formats": [
+          "svg",
+          "png"
+        ]
+      },
+      "default_value": "feature-icon-0.svg",
+      "alt_text_key": "feature_icon_alt_0",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "feature-icon-0.en.svg",
+        "feature-icon-0.ar.svg"
+      ]
+    },
+    {
+      "field_name": "feature_title_0",
+      "type": "text",
+      "i18n_key": "feature_title_0",
+      "max_length_en": 30,
+      "max_length_ar": 40,
+      "required": true,
+      "validation": {
+        "min": 3,
+        "max": 30
+      },
+      "default_value": "Visual Editor"
+    },
+    {
+      "field_name": "feature_description_0",
+      "type": "richtext",
+      "i18n_key": "feature_desc_0",
+      "max_length_en": 120,
+      "max_length_ar": 160,
+      "required": true,
+      "validation": {
+        "min": 10,
+        "max": 120
+      },
+      "default_value": "Change colors, text, and layouts in a visual editor."
+    },
+    {
+      "field_name": "feature_icon_1",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": true,
+      "validation": {
+        "allowed_formats": [
+          "svg",
+          "png"
+        ]
+      },
+      "default_value": "feature-icon-1.svg",
+      "alt_text_key": "feature_icon_alt_1",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "feature-icon-1.en.svg",
+        "feature-icon-1.ar.svg"
+      ]
+    },
+    {
+      "field_name": "feature_title_1",
+      "type": "text",
+      "i18n_key": "feature_title_1",
+      "max_length_en": 30,
+      "max_length_ar": 40,
+      "required": true,
+      "validation": {
+        "min": 3,
+        "max": 30
+      },
+      "default_value": "Built-in A/B Testing"
+    },
+    {
+      "field_name": "feature_description_1",
+      "type": "richtext",
+      "i18n_key": "feature_desc_1",
+      "max_length_en": 120,
+      "max_length_ar": 160,
+      "required": true,
+      "validation": {
+        "min": 10,
+        "max": 120
+      },
+      "default_value": "Test different headlines, images, and CTAs to optimize conversions."
+    },
+    {
+      "field_name": "feature_icon_2",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": true,
+      "validation": {
+        "allowed_formats": [
+          "svg",
+          "png"
+        ]
+      },
+      "default_value": "feature-icon-2.svg",
+      "alt_text_key": "feature_icon_alt_2",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "feature-icon-2.en.svg",
+        "feature-icon-2.ar.svg"
+      ]
+    },
+    {
+      "field_name": "feature_title_2",
+      "type": "text",
+      "i18n_key": "feature_title_2",
+      "max_length_en": 30,
+      "max_length_ar": 40,
+      "required": true,
+      "validation": {
+        "min": 3,
+        "max": 30
+      },
+      "default_value": "Real-time Analytics"
+    },
+    {
+      "field_name": "feature_description_2",
+      "type": "richtext",
+      "i18n_key": "feature_desc_2",
+      "max_length_en": 120,
+      "max_length_ar": 160,
+      "required": true,
+      "validation": {
+        "min": 10,
+        "max": 120
+      },
+      "default_value": "Track performance with integrated analytics and conversion tracking."
+    },
+    {
+      "field_name": "feature_icon_3",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": true,
+      "validation": {
+        "allowed_formats": [
+          "svg",
+          "png"
+        ]
+      },
+      "default_value": "feature-icon-3.svg",
+      "alt_text_key": "feature_icon_alt_3",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "feature-icon-3.en.svg",
+        "feature-icon-3.ar.svg"
+      ]
+    },
+    {
+      "field_name": "feature_title_3",
+      "type": "text",
+      "i18n_key": "feature_title_3",
+      "max_length_en": 30,
+      "max_length_ar": 40,
+      "required": true,
+      "validation": {
+        "min": 3,
+        "max": 30
+      },
+      "default_value": "Multi-language Support"
+    },
+    {
+      "field_name": "feature_description_3",
+      "type": "richtext",
+      "i18n_key": "feature_desc_3",
+      "max_length_en": 120,
+      "max_length_ar": 160,
+      "required": true,
+      "validation": {
+        "min": 10,
+        "max": 120
+      },
+      "default_value": "Launch pages in multiple languages with built-in localization tools."
+    },
+    {
+      "field_name": "testimonial_avatar_0",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": false,
+      "validation": {
+        "allowed_formats": [
+          "jpg",
+          "jpeg",
+          "webp"
+        ]
+      },
+      "default_value": "avatar-0.en.jpg",
+      "alt_text_key": "testimonial_avatar_alt_0",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "avatar-0.en.jpg",
+        "avatar-0.ar.jpg"
+      ]
+    },
+    {
+      "field_name": "testimonial_quote_0",
+      "type": "richtext",
+      "i18n_key": "testimonial_quote_0",
+      "max_length_en": 200,
+      "max_length_ar": 250,
+      "required": false,
+      "validation": {
+        "min": 10,
+        "max": 200
+      },
+      "default_value": "This cut our launch time from weeks to hours."
+    },
+    {
+      "field_name": "testimonial_author_name_0",
+      "type": "text",
+      "i18n_key": "testimonial_author_0",
+      "max_length_en": 50,
+      "max_length_ar": 60,
+      "required": true,
+      "validation": {
+        "min": 2,
+        "max": 50
+      },
+      "default_value": "Jamie Chen"
+    },
+    {
+      "field_name": "testimonial_author_title_0",
+      "type": "text",
+      "i18n_key": "testimonial_author_title_0",
+      "max_length_en": 50,
+      "max_length_ar": 60,
+      "required": false,
+      "validation": {
+        "min": 2,
+        "max": 50
+      },
+      "default_value": "Growth Lead"
+    },
+    {
+      "field_name": "client_logo_0",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": false,
+      "validation": {
+        "allowed_formats": [
+          "svg",
+          "png",
+          "webp"
+        ]
+      },
+      "default_value": null,
+      "alt_text_key": "client_logo_alt_0",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "client-logo-0.svg"
+      ]
+    },
+    {
+      "field_name": "client_logo_1",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": false,
+      "validation": {
+        "allowed_formats": [
+          "svg",
+          "png",
+          "webp"
+        ]
+      },
+      "default_value": null,
+      "alt_text_key": "client_logo_alt_1",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "client-logo-1.svg"
+      ]
+    },
+    {
+      "field_name": "client_logo_2",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": false,
+      "validation": {
+        "allowed_formats": [
+          "svg",
+          "png",
+          "webp"
+        ]
+      },
+      "default_value": null,
+      "alt_text_key": "client_logo_alt_2",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "client-logo-2.svg"
+      ]
+    },
+    {
+      "field_name": "form_field_label_0",
+      "type": "text",
+      "i18n_key": "form_field_label_0",
+      "max_length_en": 40,
+      "max_length_ar": 50,
+      "required": true,
+      "validation": {
+        "min": 1,
+        "max": 40
+      },
+      "default_value": "Email Address"
+    },
+    {
+      "field_name": "form_field_placeholder_0",
+      "type": "text",
+      "i18n_key": "form_field_placeholder_0",
+      "max_length_en": 40,
+      "max_length_ar": 50,
+      "required": false,
+      "validation": {
+        "min": 0,
+        "max": 40
+      },
+      "default_value": "you@company.com"
+    },
+    {
+      "field_name": "form_field_label_1",
+      "type": "text",
+      "i18n_key": "form_field_label_1",
+      "max_length_en": 40,
+      "max_length_ar": 50,
+      "required": true,
+      "validation": {
+        "min": 1,
+        "max": 40
+      },
+      "default_value": "Full Name"
+    },
+    {
+      "field_name": "form_submit_button",
+      "type": "text",
+      "i18n_key": "form_submit_button",
+      "max_length_en": 20,
+      "max_length_ar": 25,
+      "required": true,
+      "validation": {
+        "min": 2,
+        "max": 20
+      },
+      "default_value": "Request Demo"
+    },
+    {
+      "field_name": "footer_copyright",
+      "type": "text",
+      "i18n_key": "footer_copyright",
+      "max_length_en": 100,
+      "max_length_ar": 120,
+      "required": false,
+      "validation": {
+        "min": 0,
+        "max": 100
+      },
+      "default_value": "\u00a9 2024 Your Company Name. All rights reserved."
+    },
+    {
+      "field_name": "footer_link_0",
+      "type": "text",
+      "i18n_key": "footer_link_0",
+      "max_length_en": 20,
+      "max_length_ar": 25,
+      "required": true,
+      "validation": {
+        "min": 1,
+        "max": 20
+      },
+      "default_value": "Terms of Service"
+    },
+    {
+      "field_name": "footer_logo_image",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": false,
+      "validation": {
+        "allowed_formats": [
+          "svg",
+          "png"
+        ]
+      },
+      "default_value": "logo-full-color.en.svg",
+      "alt_text_key": "footer_logo_alt",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "logo-full-color.en.svg",
+        "logo-full-color.ar.svg"
+      ]
+    },
+    {
+      "field_name": "colors_primary",
+      "type": "text",
+      "i18n_key": null,
+      "max_length_en": 7,
+      "max_length_ar": 7,
+      "required": true,
+      "validation": {
+        "pattern": "^#[0-9A-Fa-f]{6}$"
+      },
+      "default_value": "#0066FF"
+    },
+    {
+      "field_name": "hero_video_poster",
+      "type": "media",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": true,
+      "validation": {
+        "allowed_formats": [
+          "jpg",
+          "jpeg",
+          "png",
+          "webp"
+        ]
+      },
+      "default_value": "hero-video-poster.jpg",
+      "alt_text_key": "hero_video_poster_alt",
+      "focal_point": {
+        "x": "percentage",
+        "y": "percentage"
+      },
+      "locale_variants": [
+        "hero-video-poster.en.jpg",
+        "hero-video-poster.ar.jpg"
+      ]
+    },
+    {
+      "field_name": "spacing_unit",
+      "type": "number",
+      "i18n_key": null,
+      "max_length_en": null,
+      "max_length_ar": null,
+      "required": true,
+      "validation": {
+        "min": 4,
+        "max": 16
+      },
+      "default_value": 8
+    }
+  ]
+}

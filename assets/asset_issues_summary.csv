@@ -1,0 +1,5 @@
+path,actual_file_size_bytes,max_file_size_bytes,issues,has_2x_variant,locale_variants
+videos/hero-video.ar.mp4,2621440,5242880,missing_poster,False,
+videos/hero-video.en.mp4,2621440,5242880,missing_poster,False,
+videos/promo-video.ar.mp4,5242880,10485760,missing_poster,False,
+videos/promo-video.en.mp4,5242880,10240,size_exceeded;missing_poster,False,

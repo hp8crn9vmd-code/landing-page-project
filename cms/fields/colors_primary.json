@@ -1,0 +1,12 @@
+{
+  "field_name": "colors_primary",
+  "type": "text",
+  "i18n_key": null,
+  "max_length_en": 7,
+  "max_length_ar": 7,
+  "required": true,
+  "validation": {
+    "pattern": "^#[0-9A-Fa-f]{6}$"
+  },
+  "default_value": "#0066FF"
+}

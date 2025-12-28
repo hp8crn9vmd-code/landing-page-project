@@ -1,0 +1,21 @@
+{
+  "filename": "images/product-screenshot.ar.with-frame.png",
+  "locale_variant": "ar",
+  "final_spec": {
+    "format": "PNG with transparency",
+    "dimensions": "1920x1200px (16:10)",
+    "max_file_size_bytes": 204800,
+    "retina_required": true,
+    "poster_required": false
+  },
+  "alt_text_key": "product_screenshot_alt",
+  "focal_point": {
+    "x": 50,
+    "y": 40
+  },
+  "requires_human_review": false,
+  "actual_file_size_bytes": 102400,
+  "created_at": "2025-12-16T17:26:03.938046Z",
+  "notes": "Arabic UI required; deliver native Arabic export (not mirrored). Update actual_file_size_bytes and set requires_human_review:false when delivered.",
+  "last_updated_at": "2025-12-16T17:26:59.169517Z"
+}

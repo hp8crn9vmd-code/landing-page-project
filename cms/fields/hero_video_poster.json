@@ -1,0 +1,26 @@
+{
+  "field_name": "hero_video_poster",
+  "type": "media",
+  "i18n_key": null,
+  "max_length_en": null,
+  "max_length_ar": null,
+  "required": true,
+  "validation": {
+    "allowed_formats": [
+      "jpg",
+      "jpeg",
+      "png",
+      "webp"
+    ]
+  },
+  "default_value": "hero-video-poster.jpg",
+  "alt_text_key": "hero_video_poster_alt",
+  "focal_point": {
+    "x": "percentage",
+    "y": "percentage"
+  },
+  "locale_variants": [
+    "hero-video-poster.en.jpg",
+    "hero-video-poster.ar.jpg"
+  ]
+}

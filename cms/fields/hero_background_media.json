@@ -1,0 +1,27 @@
+{
+  "field_name": "hero_background_media",
+  "type": "media",
+  "i18n_key": null,
+  "max_length_en": null,
+  "max_length_ar": null,
+  "required": true,
+  "validation": {
+    "allowed_formats": [
+      "jpg",
+      "jpeg",
+      "webp",
+      "mp4",
+      "webm"
+    ]
+  },
+  "default_value": "hero-background.en.jpg",
+  "alt_text_key": "hero_background_alt",
+  "focal_point": {
+    "x": "percentage",
+    "y": "percentage"
+  },
+  "locale_variants": [
+    "hero-background.en.jpg",
+    "hero-background.ar.jpg"
+  ]
+}

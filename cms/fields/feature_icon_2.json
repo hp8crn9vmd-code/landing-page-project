@@ -1,0 +1,24 @@
+{
+  "field_name": "feature_icon_2",
+  "type": "media",
+  "i18n_key": null,
+  "max_length_en": null,
+  "max_length_ar": null,
+  "required": true,
+  "validation": {
+    "allowed_formats": [
+      "svg",
+      "png"
+    ]
+  },
+  "default_value": "feature-icon-2.svg",
+  "alt_text_key": "feature_icon_alt_2",
+  "focal_point": {
+    "x": "percentage",
+    "y": "percentage"
+  },
+  "locale_variants": [
+    "feature-icon-2.en.svg",
+    "feature-icon-2.ar.svg"
+  ]
+}

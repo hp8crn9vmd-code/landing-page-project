@@ -1,0 +1,24 @@
+{
+  "field_name": "footer_logo_image",
+  "type": "media",
+  "i18n_key": null,
+  "max_length_en": null,
+  "max_length_ar": null,
+  "required": false,
+  "validation": {
+    "allowed_formats": [
+      "svg",
+      "png"
+    ]
+  },
+  "default_value": "logo-full-color.en.svg",
+  "alt_text_key": "footer_logo_alt",
+  "focal_point": {
+    "x": "percentage",
+    "y": "percentage"
+  },
+  "locale_variants": [
+    "logo-full-color.en.svg",
+    "logo-full-color.ar.svg"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Hero Background Video",
+  "status": "MISSING",
+  "locale_variants": [
+    "hero-video.en.mp4",
+    "hero-video.ar.mp4"
+  ],
+  "final_spec": {
+    "format": "H.264 MP4 (primary), VP9 WebM (fallback)",
+    "dimensions": "1920×1080px",
+    "aspect_ratio": "16:9",
+    "max_file_size_bytes": 5242880,
+    "retina_required": false,
+    "poster_required": true
+  },
+  "rtl_swap_required": false,
+  "delivery_recommendation": {
+    "owner_role": "design",
+    "deadline_days": 10
+  },
+  "placeholder_filename": "hero-video-placeholder.mp4"
+}

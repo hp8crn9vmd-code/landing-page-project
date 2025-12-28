@@ -1,0 +1,22 @@
+{
+  "name": "Promo Video Clip",
+  "status": "MISSING",
+  "locale_variants": [
+    "promo-video.en.mp4",
+    "promo-video.ar.mp4"
+  ],
+  "final_spec": {
+    "format": "H.264 MP4 (primary), WebM (fallback)",
+    "dimensions": "1920×1080px",
+    "aspect_ratio": "16:9",
+    "max_file_size_bytes": 10485760,
+    "retina_required": false,
+    "poster_required": true
+  },
+  "rtl_swap_required": true,
+  "delivery_recommendation": {
+    "owner_role": "design",
+    "deadline_days": 14
+  },
+  "placeholder_filename": "promo-video-placeholder.mp4"
+}

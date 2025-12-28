@@ -1,0 +1,22 @@
+{
+  "name": "Product Screenshot",
+  "status": "MISSING",
+  "locale_variants": [
+    "product-screenshot.en.png",
+    "product-screenshot.ar.png"
+  ],
+  "final_spec": {
+    "format": "PNG with transparency",
+    "dimensions": "1920×1200px (16:10)",
+    "aspect_ratio": "16:10",
+    "max_file_size_bytes": 204800,
+    "retina_required": true,
+    "poster_required": false
+  },
+  "rtl_swap_required": true,
+  "delivery_recommendation": {
+    "owner_role": "design",
+    "deadline_days": 7
+  },
+  "placeholder_filename": "product-screenshot-placeholder.png"
+}

@@ -1,0 +1,20 @@
+{
+  "filename": "hero-background-21x9.ar.jpg",
+  "asset_name": "Hero Image (Stock)",
+  "locale": "ar",
+  "format": "jpg",
+  "dimensions": "1920×1080px (16:9), 2560×1080px (21:9)",
+  "aspect_ratio": "16:9, 21:9, 1:1",
+  "max_file_size_bytes": 256000,
+  "actual_file_size_bytes": 0,
+  "retina": true,
+  "focal_point": {
+    "x": 35,
+    "y": 50
+  },
+  "poster_required": false,
+  "captions": [],
+  "created_by": "design",
+  "created_at": "2025-12-16T16:41:34.383254",
+  "requires_human_review": true
+}

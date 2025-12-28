@@ -1,0 +1,1263 @@
+{
+  "generated_at": "2025-12-16T17:48:47.448182Z",
+  "status": "WARN",
+  "total_files_scanned": 124,
+  "assets": [
+    {
+      "path": "asset_verification_report.json",
+      "actual_file_size_bytes": 748,
+      "size_human": "748.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "assets_check_summary.json",
+      "actual_file_size_bytes": 5084,
+      "size_human": "5.0KB",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "assets_index.json",
+      "actual_file_size_bytes": 1282,
+      "size_human": "1.3KB",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-0.ar.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-0.ar.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-0.ar@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-0.ar@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-0.en.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-0.en.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-0.en@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-0.en@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-1.ar.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-1.ar.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-1.ar@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-1.ar@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-1.en.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-1.en.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-1.en@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-1.en@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-2.ar.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-2.ar.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-2.ar@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-2.ar@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-2.en.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-2.en.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-2.en@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-2.en@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-3.ar.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-3.ar.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-3.ar@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-3.ar@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-3.en.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-3.en.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-3.en@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-3.en@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-4.ar.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-4.ar.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-4.ar@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-4.ar@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-4.en.meta.json",
+      "actual_file_size_bytes": 468,
+      "size_human": "468.0B",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-4.en.webp",
+      "actual_file_size_bytes": 25600,
+      "size_human": "25.0KB",
+      "issues": [],
+      "max_file_size_bytes": 51200,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-4.en@2x.jpg",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "avatars/avatar-4.en@2x.meta.json",
+      "actual_file_size_bytes": 470,
+      "size_human": "470.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "designer_handoff_manifest.json",
+      "actual_file_size_bytes": 2120,
+      "size_human": "2.1KB",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "hero_background_video.json",
+      "actual_file_size_bytes": 548,
+      "size_human": "548.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "hero_image_(stock).json",
+      "actual_file_size_bytes": 582,
+      "size_human": "582.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background-21x9.ar.jpg",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background-21x9.ar.meta.json",
+      "actual_file_size_bytes": 501,
+      "size_human": "501.0B",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background-21x9.ar.webp",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background-21x9.en.jpg",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background-21x9.en.meta.json",
+      "actual_file_size_bytes": 501,
+      "size_human": "501.0B",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background-21x9.en.webp",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background.ar.jpg",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background.ar.meta.json",
+      "actual_file_size_bytes": 496,
+      "size_human": "496.0B",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background.ar.webp",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background.en.jpg",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background.en.meta.json",
+      "actual_file_size_bytes": 496,
+      "size_human": "496.0B",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background.en.webp",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background@2x.ar.meta.json",
+      "actual_file_size_bytes": 501,
+      "size_human": "501.0B",
+      "issues": [],
+      "max_file_size_bytes": 512000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background@2x.ar.webp",
+      "actual_file_size_bytes": 256000,
+      "size_human": "250.0KB",
+      "issues": [],
+      "max_file_size_bytes": 512000,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background@2x.en.meta.json",
+      "actual_file_size_bytes": 501,
+      "size_human": "501.0B",
+      "issues": [],
+      "max_file_size_bytes": 512000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-background@2x.en.webp",
+      "actual_file_size_bytes": 256000,
+      "size_human": "250.0KB",
+      "issues": [],
+      "max_file_size_bytes": 512000,
+      "format": "webp",
+      "poster_required": false,
+      "aspect_ratio": "16:9, 21:9, 1:1",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/hero-placeholder-16x9.txt",
+      "actual_file_size_bytes": 224,
+      "size_human": "224.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.ar.meta.json",
+      "actual_file_size_bytes": 469,
+      "size_human": "469.0B",
+      "issues": [],
+      "max_file_size_bytes": 204800,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.ar.no-frame.meta.json",
+      "actual_file_size_bytes": 478,
+      "size_human": "478.0B",
+      "issues": [],
+      "max_file_size_bytes": 204800,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.ar.no-frame.png",
+      "actual_file_size_bytes": 102400,
+      "size_human": "100.0KB",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.ar.no-frame.png.meta.json",
+      "actual_file_size_bytes": 706,
+      "size_human": "706.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.ar.png",
+      "actual_file_size_bytes": 102400,
+      "size_human": "100.0KB",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": [
+        "images/product-screenshot.ar.with-frame.png",
+        "images/product-screenshot.ar.no-frame.png"
+      ]
+    },
+    {
+      "path": "images/product-screenshot.ar.png.meta.json",
+      "actual_file_size_bytes": 697,
+      "size_human": "697.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.ar.with-frame.meta.json",
+      "actual_file_size_bytes": 480,
+      "size_human": "480.0B",
+      "issues": [],
+      "max_file_size_bytes": 204800,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.ar.with-frame.png",
+      "actual_file_size_bytes": 102400,
+      "size_human": "100.0KB",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.ar.with-frame.png.meta.json",
+      "actual_file_size_bytes": 708,
+      "size_human": "708.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.en.meta.json",
+      "actual_file_size_bytes": 469,
+      "size_human": "469.0B",
+      "issues": [],
+      "max_file_size_bytes": 204800,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.en.no-frame.meta.json",
+      "actual_file_size_bytes": 478,
+      "size_human": "478.0B",
+      "issues": [],
+      "max_file_size_bytes": 204800,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.en.no-frame.png",
+      "actual_file_size_bytes": 102400,
+      "size_human": "100.0KB",
+      "issues": [],
+      "max_file_size_bytes": 204800,
+      "format": "png",
+      "poster_required": false,
+      "aspect_ratio": "16:10",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.en.png",
+      "actual_file_size_bytes": 102400,
+      "size_human": "100.0KB",
+      "issues": [],
+      "max_file_size_bytes": 204800,
+      "format": "png",
+      "poster_required": false,
+      "aspect_ratio": "16:10",
+      "has_2x_variant": false,
+      "locale_variants": [
+        "images/product-screenshot.en.with-frame.png",
+        "images/product-screenshot.en.no-frame.png"
+      ]
+    },
+    {
+      "path": "images/product-screenshot.en.with-frame.meta.json",
+      "actual_file_size_bytes": 480,
+      "size_human": "480.0B",
+      "issues": [],
+      "max_file_size_bytes": 204800,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot.en.with-frame.png",
+      "actual_file_size_bytes": 102400,
+      "size_human": "100.0KB",
+      "issues": [],
+      "max_file_size_bytes": 204800,
+      "format": "png",
+      "poster_required": false,
+      "aspect_ratio": "16:10",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot@2x.ar.meta.json",
+      "actual_file_size_bytes": 472,
+      "size_human": "472.0B",
+      "issues": [],
+      "max_file_size_bytes": 409600,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot@2x.ar.png",
+      "actual_file_size_bytes": 204800,
+      "size_human": "200.0KB",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot@2x.ar.png.meta.json",
+      "actual_file_size_bytes": 700,
+      "size_human": "700.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot@2x.en.meta.json",
+      "actual_file_size_bytes": 472,
+      "size_human": "472.0B",
+      "issues": [],
+      "max_file_size_bytes": 409600,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "images/product-screenshot@2x.en.png",
+      "actual_file_size_bytes": 204800,
+      "size_human": "200.0KB",
+      "issues": [],
+      "max_file_size_bytes": 409600,
+      "format": "png",
+      "poster_required": false,
+      "aspect_ratio": "16:10",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "issue_summary.csv",
+      "actual_file_size_bytes": 737,
+      "size_human": "737.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logo___full_color.json",
+      "actual_file_size_bytes": 599,
+      "size_human": "599.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logo___monochrome_light.json",
+      "actual_file_size_bytes": 608,
+      "size_human": "608.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-full-color-placeholder.svg",
+      "actual_file_size_bytes": 253,
+      "size_human": "253.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-full-color.ar.meta.json",
+      "actual_file_size_bytes": 510,
+      "size_human": "510.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-full-color.ar.svg",
+      "actual_file_size_bytes": 102309,
+      "size_human": "99.9KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "svg",
+      "poster_required": false,
+      "aspect_ratio": "flexible (3:1 horizontal recommended)",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-full-color.en.meta.json",
+      "actual_file_size_bytes": 510,
+      "size_human": "510.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-full-color.en.svg",
+      "actual_file_size_bytes": 102309,
+      "size_human": "99.9KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "svg",
+      "poster_required": false,
+      "aspect_ratio": "flexible (3:1 horizontal recommended)",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-full-color@2x.meta.json",
+      "actual_file_size_bytes": 510,
+      "size_human": "510.0B",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-full-color@2x.png",
+      "actual_file_size_bytes": 51200,
+      "size_human": "50.0KB",
+      "issues": [],
+      "max_file_size_bytes": 102400,
+      "format": "png",
+      "poster_required": false,
+      "aspect_ratio": "flexible (3:1 horizontal recommended)",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-monochrome-light-placeholder.svg",
+      "actual_file_size_bytes": 253,
+      "size_human": "253.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-monochrome-light.ar.meta.json",
+      "actual_file_size_bytes": 507,
+      "size_human": "507.0B",
+      "issues": [],
+      "max_file_size_bytes": 81920,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-monochrome-light.ar.svg",
+      "actual_file_size_bytes": 81829,
+      "size_human": "79.9KB",
+      "issues": [],
+      "max_file_size_bytes": 81920,
+      "format": "svg",
+      "poster_required": false,
+      "aspect_ratio": "same as full color logo",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-monochrome-light.en.meta.json",
+      "actual_file_size_bytes": 507,
+      "size_human": "507.0B",
+      "issues": [],
+      "max_file_size_bytes": 81920,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-monochrome-light.en.svg",
+      "actual_file_size_bytes": 81829,
+      "size_human": "79.9KB",
+      "issues": [],
+      "max_file_size_bytes": 81920,
+      "format": "svg",
+      "poster_required": false,
+      "aspect_ratio": "same as full color logo",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-monochrome-light@2x.meta.json",
+      "actual_file_size_bytes": 507,
+      "size_human": "507.0B",
+      "issues": [],
+      "max_file_size_bytes": 81920,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "logos/logo-monochrome-light@2x.png",
+      "actual_file_size_bytes": 40960,
+      "size_human": "40.0KB",
+      "issues": [],
+      "max_file_size_bytes": 81920,
+      "format": "png",
+      "poster_required": false,
+      "aspect_ratio": "same as full color logo",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "product_screenshot.json",
+      "actual_file_size_bytes": 556,
+      "size_human": "556.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "promo_video_clip.json",
+      "actual_file_size_bytes": 542,
+      "size_human": "542.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "step6_fix_log.json",
+      "actual_file_size_bytes": 9665,
+      "size_human": "9.4KB",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "step6_issue_details.json",
+      "actual_file_size_bytes": 852,
+      "size_human": "852.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "testimonial_avatar_set.json",
+      "actual_file_size_bytes": 544,
+      "size_human": "544.0B",
+      "issues": [],
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/hero-video.ar.meta.json",
+      "actual_file_size_bytes": 456,
+      "size_human": "456.0B",
+      "issues": [],
+      "max_file_size_bytes": 5242880,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/hero-video.ar.mp4",
+      "actual_file_size_bytes": 2621440,
+      "size_human": "2.5MB",
+      "issues": [
+        "missing_poster"
+      ],
+      "max_file_size_bytes": 5242880,
+      "format": "mp4",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/hero-video.en.meta.json",
+      "actual_file_size_bytes": 456,
+      "size_human": "456.0B",
+      "issues": [],
+      "max_file_size_bytes": 5242880,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/hero-video.en.mp4",
+      "actual_file_size_bytes": 2621440,
+      "size_human": "2.5MB",
+      "issues": [
+        "missing_poster"
+      ],
+      "max_file_size_bytes": 5242880,
+      "format": "mp4",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/hero-video.poster.ar.jpg",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/hero-video.poster.ar.meta.json",
+      "actual_file_size_bytes": 462,
+      "size_human": "462.0B",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/hero-video.poster.en.jpg",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/hero-video.poster.en.meta.json",
+      "actual_file_size_bytes": 462,
+      "size_human": "462.0B",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.ar.meta.json",
+      "actual_file_size_bytes": 450,
+      "size_human": "450.0B",
+      "issues": [],
+      "max_file_size_bytes": 10240,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.ar.mp4",
+      "actual_file_size_bytes": 5242880,
+      "size_human": "5.0MB",
+      "issues": [
+        "missing_poster"
+      ],
+      "max_file_size_bytes": 10485760,
+      "format": "MP4",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.ar.mp4.meta.json",
+      "actual_file_size_bytes": 586,
+      "size_human": "586.0B",
+      "issues": [],
+      "max_file_size_bytes": 10485760,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.ar.vtt",
+      "actual_file_size_bytes": 10149,
+      "size_human": "9.9KB",
+      "issues": [],
+      "max_file_size_bytes": 10240,
+      "format": "vtt",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.en.meta.json",
+      "actual_file_size_bytes": 450,
+      "size_human": "450.0B",
+      "issues": [],
+      "max_file_size_bytes": 10240,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.en.mp4",
+      "actual_file_size_bytes": 5242880,
+      "size_human": "5.0MB",
+      "issues": [
+        "size_exceeded",
+        "missing_poster"
+      ],
+      "max_file_size_bytes": 10240,
+      "format": "vtt",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.en.vtt",
+      "actual_file_size_bytes": 10149,
+      "size_human": "9.9KB",
+      "issues": [],
+      "max_file_size_bytes": 10240,
+      "format": "vtt",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.poster.ar.jpg",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.poster.ar.meta.json",
+      "actual_file_size_bytes": 458,
+      "size_human": "458.0B",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.poster.en.jpg",
+      "actual_file_size_bytes": 128000,
+      "size_human": "125.0KB",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "format": "jpg",
+      "poster_required": true,
+      "aspect_ratio": "16:9",
+      "has_2x_variant": false,
+      "locale_variants": []
+    },
+    {
+      "path": "videos/promo-video.poster.en.meta.json",
+      "actual_file_size_bytes": 458,
+      "size_human": "458.0B",
+      "issues": [],
+      "max_file_size_bytes": 256000,
+      "has_2x_variant": false,
+      "locale_variants": []
+    }
+  ]
+}

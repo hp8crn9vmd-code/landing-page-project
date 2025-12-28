@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "images/product-screenshot.ar.with-frame.png",
+    "issue_type": "REQUIRES_HUMAN_REVIEW",
+    "required_deliverables": [
+      "PNG with Arabic UI version",
+      "transparent and framed variants",
+      "meta.json updated"
+    ],
+    "notes": "Placeholder created; requires designer to produce native Arabic UI screenshot (not mirrored). Provide native Arabic UI (not mirrored). Update product-screenshot.ar.with-frame.png.meta.json with actual_file_size_bytes and set requires_human_review:false when delivered."
+  },
+  {
+    "filename": "images/product-screenshot@2x.ar.png",
+    "issue_type": "REQUIRES_HUMAN_REVIEW",
+    "required_deliverables": [
+      "PNG with Arabic UI version",
+      "transparent and framed variants",
+      "meta.json updated"
+    ],
+    "notes": "Placeholder created; requires designer to produce native Arabic UI screenshot (not mirrored). Provide native Arabic UI (not mirrored). Update product-screenshot@2x.ar.png.meta.json with actual_file_size_bytes and set requires_human_review:false when delivered."
+  },
+  {
+    "filename": "images/product-screenshot.ar.no-frame.png",
+    "issue_type": "REQUIRES_HUMAN_REVIEW",
+    "required_deliverables": [
+      "PNG with Arabic UI version",
+      "transparent and framed variants",
+      "meta.json updated"
+    ],
+    "notes": "Placeholder created; requires designer to produce native Arabic UI screenshot (not mirrored). Provide native Arabic UI (not mirrored). Update product-screenshot.ar.no-frame.png.meta.json with actual_file_size_bytes and set requires_human_review:false when delivered."
+  },
+  {
+    "filename": "images/product-screenshot.ar.png",
+    "issue_type": "REQUIRES_HUMAN_REVIEW",
+    "required_deliverables": [
+      "PNG with Arabic UI version",
+      "transparent and framed variants",
+      "meta.json updated"
+    ],
+    "notes": "Placeholder created; requires designer to produce native Arabic UI screenshot (not mirrored). Provide native Arabic UI (not mirrored). Update product-screenshot.ar.png.meta.json with actual_file_size_bytes and set requires_human_review:false when delivered."
+  }
+]

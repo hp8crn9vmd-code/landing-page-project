@@ -1,0 +1,391 @@
+[
+  {
+    "path": "assets/avatars/avatar-2.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.494821Z"
+  },
+  {
+    "path": "assets/avatars/avatar-4.ar@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.495145Z"
+  },
+  {
+    "path": "assets/avatars/avatar-1.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.495470Z"
+  },
+  {
+    "path": "assets/avatars/avatar-2.en@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.495751Z"
+  },
+  {
+    "path": "assets/avatars/avatar-2.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.496031Z"
+  },
+  {
+    "path": "assets/avatars/avatar-4.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.496412Z"
+  },
+  {
+    "path": "assets/avatars/avatar-3.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.496694Z"
+  },
+  {
+    "path": "assets/avatars/avatar-3.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.496966Z"
+  },
+  {
+    "path": "assets/avatars/avatar-1.ar@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.497256Z"
+  },
+  {
+    "path": "assets/avatars/avatar-3.ar@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.497513Z"
+  },
+  {
+    "path": "assets/avatars/avatar-3.en@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.497828Z"
+  },
+  {
+    "path": "assets/avatars/avatar-0.en@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.498132Z"
+  },
+  {
+    "path": "assets/avatars/avatar-4.en@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.498426Z"
+  },
+  {
+    "path": "assets/avatars/avatar-4.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.498785Z"
+  },
+  {
+    "path": "assets/avatars/avatar-1.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.499157Z"
+  },
+  {
+    "path": "assets/avatars/avatar-0.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.499531Z"
+  },
+  {
+    "path": "assets/avatars/avatar-0.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.499993Z"
+  },
+  {
+    "path": "assets/avatars/avatar-2.ar@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.500332Z"
+  },
+  {
+    "path": "assets/avatars/avatar-1.en@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.500677Z"
+  },
+  {
+    "path": "assets/avatars/avatar-0.ar@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.500962Z"
+  },
+  {
+    "path": "assets/videos/hero-video.poster.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.501191Z"
+  },
+  {
+    "path": "assets/videos/hero-video.poster.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.501456Z"
+  },
+  {
+    "path": "assets/videos/hero-video.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.501712Z"
+  },
+  {
+    "path": "assets/videos/hero-video.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.501933Z"
+  },
+  {
+    "path": "assets/videos/promo-video.poster.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.502145Z"
+  },
+  {
+    "path": "assets/videos/promo-video.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.502452Z"
+  },
+  {
+    "path": "assets/videos/promo-video.poster.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.502716Z"
+  },
+  {
+    "path": "assets/videos/promo-video.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.502994Z"
+  },
+  {
+    "path": "assets/images/hero-background-21x9.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.503374Z"
+  },
+  {
+    "path": "assets/images/hero-background@2x.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.503812Z"
+  },
+  {
+    "path": "assets/images/product-screenshot.ar.with-frame.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.504175Z"
+  },
+  {
+    "path": "assets/images/product-screenshot@2x.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.504950Z"
+  },
+  {
+    "path": "assets/images/product-screenshot@2x.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.506394Z"
+  },
+  {
+    "path": "assets/images/hero-background.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.507289Z"
+  },
+  {
+    "path": "assets/images/product-screenshot.en.no-frame.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.507915Z"
+  },
+  {
+    "path": "assets/images/product-screenshot.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.508374Z"
+  },
+  {
+    "path": "assets/images/product-screenshot.ar.no-frame.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.508813Z"
+  },
+  {
+    "path": "assets/images/product-screenshot.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.509284Z"
+  },
+  {
+    "path": "assets/images/hero-background.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.509828Z"
+  },
+  {
+    "path": "assets/images/hero-background-21x9.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.510341Z"
+  },
+  {
+    "path": "assets/images/hero-background@2x.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.510896Z"
+  },
+  {
+    "path": "assets/images/product-screenshot.en.with-frame.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.511515Z"
+  },
+  {
+    "path": "assets/logos/logo-monochrome-light.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.511999Z"
+  },
+  {
+    "path": "assets/logos/logo-monochrome-light@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.512311Z"
+  },
+  {
+    "path": "assets/logos/logo-monochrome-light.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.512814Z"
+  },
+  {
+    "path": "assets/logos/logo-full-color.en.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.513161Z"
+  },
+  {
+    "path": "assets/logos/logo-full-color.ar.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.513458Z"
+  },
+  {
+    "path": "assets/logos/logo-full-color@2x.meta.json",
+    "action": "META_NORMALIZED",
+    "notes": [
+      "file_missing_on_disk"
+    ],
+    "timestamp": "2025-12-16T17:01:11.513731Z"
+  },
+  {
+    "path": "assets/videos/promo-video.ar.mp4.meta.json",
+    "action": "META_CREATED_BURNED_IN_FLAG",
+    "timestamp": "2025-12-16T17:04:10.871065Z"
+  }
+]
