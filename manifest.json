@@ -1,0 +1,16 @@
+{
+  "name": "NexaFlow Landing Page",
+  "short_name": "NexaFlow",
+  "description": "A 2D motion landing page built in Kaggle",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# GitHub Pages Configuration
+
+# Build settings
+source: 
+  branch: main
+  path: /
+
+# Exclude from processing
+exclude:
+  - README.md
+  - tools/
+  - .gitignore
+  - AUDIT_REPORT.md
+  - .github/
+  - CNAME
+
+# Site settings
+title: "NexaFlow Landing Page"
+description: "A 2D motion landing page built in Kaggle"
+baseurl: ""
+url: "https://yourusername.github.io/your-repo"

@@ -1,0 +1,552 @@
+// Enhanced Main JavaScript with Component Polish
+(function() {
+    'use strict';
+    
+    // Utility Functions
+    const utils = {
+        debounce: (func, wait) => {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        },
+        
+        throttle: (func, limit) => {
+            let inThrottle;
+            return function(...args) {
+                if (!inThrottle) {
+                    func.apply(this, args);
+                    inThrottle = true;
+                    setTimeout(() => inThrottle = false, limit);
+                }
+            };
+        },
+        
+        animateValue: (element, start, end, duration) => {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                const value = Math.floor(progress * (end - start) + start);
+                element.textContent = value.toLocaleString();
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        },
+        
+        loadSVG: (elementId, svgContent) => {
+            const element = document.getElementById(elementId);
+            if (element) {
+                // Remove placeholder
+                const placeholder = element.querySelector('.visual-placeholder');
+                if (placeholder) {
+                    placeholder.style.opacity = '0';
+                    setTimeout(() => {
+                        placeholder.remove();
+                        element.innerHTML = svgContent;
+                        console.log('🎨 Animated SVG loaded');
+                    }, 300);
+                }
+            }
+        }
+    };
+    
+    // Component Data
+    const componentData = {
+        features: [
+            {
+                icon: "🚀",
+                title: "Kaggle-Native Development",
+                description: "Entirely built, tested, and previewed within Kaggle Notebooks using Python automation and web standards.",
+                tags: ["Python", "Automation", "Notebooks"]
+            },
+            {
+                icon: "🎨",
+                title: "2D Motion Design System",
+                description: "Smooth SVG animations, CSS keyframes, and scroll-triggered effects with prefers-reduced-motion support.",
+                tags: ["SVG", "CSS", "Animations"]
+            },
+            {
+                icon: "⚡",
+                title: "Production-Grade Performance",
+                description: "Optimized for speed with lazy loading, efficient animations, and minimal JavaScript footprint.",
+                tags: ["Performance", "Optimization", "Lighthouse"]
+            },
+            {
+                icon: "♿",
+                title: "Accessibility First",
+                description: "WCAG 2.1 compliant with semantic HTML, keyboard navigation, and screen reader support.",
+                tags: ["A11y", "WCAG", "Screen Readers"]
+            },
+            {
+                icon: "📱",
+                title: "Responsive & Adaptive",
+                description: "Mobile-first design with fluid layouts, touch-friendly interactions, and print styles.",
+                tags: ["Responsive", "Mobile", "Touch"]
+            },
+            {
+                icon: "🔧",
+                title: "GitHub Publishing Ready",
+                description: "Automated deployment via Kaggle Secrets with secure token handling and CI/CD workflows.",
+                tags: ["GitHub", "CI/CD", "Secrets"]
+            }
+        ],
+        
+        testimonials: [
+            {
+                content: "This project demonstrates how Kaggle can be used for full front-end development workflows. The 2D animations are smooth and performant.",
+                name: "Alex Chen",
+                role: "Frontend Engineer",
+                initials: "AC"
+            },
+            {
+                content: "The attention to accessibility and reduced-motion support sets this apart from typical landing pages. Great work!",
+                name: "Maria Rodriguez",
+                role: "Accessibility Specialist",
+                initials: "MR"
+            },
+            {
+                content: "As a Kaggle regular, I'm impressed by the creative use of the platform for web development. The Python automation scripts are brilliant.",
+                name: "David Kim",
+                role: "Data Scientist",
+                initials: "DK"
+            }
+        ],
+        
+        faqs: [
+            {
+                q: "Can this project really be built entirely within Kaggle?",
+                a: "Yes! Every aspect—from HTML/CSS/JS development to Python automation and GitHub publishing—is done within Kaggle Notebooks. The preview server runs locally in Kaggle, and all files are generated programmatically."
+            },
+            {
+                q: "How do the 2D animations affect performance?",
+                a: "Animations use CSS hardware acceleration and efficient SVG techniques. We monitor FPS and provide reduced-motion alternatives. The site maintains Lighthouse scores above 90 for performance."
+            },
+            {
+                q: "Is this accessible for screen readers and keyboard users?",
+                a: "Absolutely. Semantic HTML, ARIA labels, focus management, and keyboard navigation are implemented. All animations respect the prefers-reduced-motion media query."
+            },
+            {
+                q: "How do you handle mobile and touch devices?",
+                a: "Touch-specific interactions replace hover effects, tap targets are appropriately sized, and the layout adapts from mobile-first to desktop with responsive breakpoints."
+            },
+            {
+                q: "What about browser compatibility?",
+                a: "We use modern CSS with fallbacks for older browsers. JavaScript features are progressively enhanced, and the site works without JS (though with reduced functionality)."
+            },
+            {
+                q: "How do you publish from Kaggle to GitHub?",
+                a: "Using Kaggle Secrets for secure token storage, we automate git commands to initialize, commit, and push the repository. The process is documented in the README."
+            }
+        ]
+    };
+    
+    // Component Initialization
+    const components = {
+        initMobileMenu: () => {
+            const toggle = document.getElementById('mobile-menu-toggle');
+            const menu = document.getElementById('main-nav-menu');
+            
+            if (toggle && menu) {
+                toggle.addEventListener('click', () => {
+                    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+                    toggle.setAttribute('aria-expanded', !expanded);
+                    menu.setAttribute('aria-expanded', !expanded);
+                    
+                    // Toggle visibility
+                    if (!expanded) {
+                        menu.style.display = 'flex';
+                        setTimeout(() => {
+                            menu.style.opacity = '1';
+                            menu.style.transform = 'translateY(0)';
+                        }, 10);
+                    } else {
+                        menu.style.opacity = '0';
+                        menu.style.transform = 'translateY(-10px)';
+                        setTimeout(() => {
+                            menu.style.display = 'none';
+                        }, 300);
+                    }
+                });
+                
+                // Close menu when clicking outside
+                document.addEventListener('click', (e) => {
+                    if (!toggle.contains(e.target) && !menu.contains(e.target)) {
+                        toggle.setAttribute('aria-expanded', 'false');
+                        menu.setAttribute('aria-expanded', 'false');
+                        menu.style.opacity = '0';
+                        menu.style.transform = 'translateY(-10px)';
+                        setTimeout(() => {
+                            menu.style.display = 'none';
+                        }, 300);
+                    }
+                });
+                
+                // Keyboard navigation for menu
+                menu.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') {
+                        toggle.click();
+                        toggle.focus();
+                    }
+                });
+            }
+        },
+        
+        initHeroStats: () => {
+            const statLines = document.getElementById('stat-lines');
+            const statFiles = document.getElementById('stat-files');
+            const statAnimations = document.getElementById('stat-animations');
+            
+            if (statLines) {
+                // Animate the stats on scroll into view
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            utils.animateValue(statLines, 0, 8560, 2000);
+                            utils.animateValue(statFiles, 0, 6, 1500);
+                            utils.animateValue(statAnimations, 0, 12, 2500);
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.5 });
+                
+                observer.observe(statLines.parentElement);
+            }
+        },
+        
+        initFeatures: () => {
+            const container = document.getElementById('features-container');
+            if (!container) return;
+            
+            container.innerHTML = componentData.features.map((feature, index) => `
+                <div class="feature-card scroll-fade-in" role="listitem" style="animation-delay: ${index * 0.1}s">
+                    <div class="feature-card-content">
+                        <div class="feature-card-icon" aria-hidden="true">${feature.icon}</div>
+                        <h3>${feature.title}</h3>
+                        <p>${feature.description}</p>
+                        <div class="feature-card-tags">
+                            ${feature.tags.map(tag => `<span class="feature-tag">${tag}</span>`).join('')}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+            
+            // Add hover effects
+            document.querySelectorAll('.feature-card').forEach(card => {
+                card.classList.add('hover-lift');
+            });
+        },
+        
+        initTestimonials: () => {
+            const container = document.getElementById('testimonials-container');
+            if (!container) return;
+            
+            container.innerHTML = componentData.testimonials.map((testimonial, index) => `
+                <div class="testimonial-card scroll-fade-in" role="listitem" style="animation-delay: ${index * 0.2}s">
+                    <div class="testimonial-content">
+                        "${testimonial.content}"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" aria-hidden="true">
+                            ${testimonial.initials}
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">${testimonial.name}</div>
+                            <div class="testimonial-role">${testimonial.role}</div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        },
+        
+        initFAQ: () => {
+            const container = document.getElementById('faq-container');
+            if (!container) return;
+            
+            container.innerHTML = componentData.faqs.map((faq, index) => `
+                <div class="faq-item scroll-fade-in" id="faq-${index}" role="listitem">
+                    <div class="faq-question" id="faq-question-${index}" 
+                         aria-expanded="false" 
+                         aria-controls="faq-answer-${index}"
+                         role="button"
+                         tabindex="0">
+                        <span>${faq.q}</span>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-${index}" 
+                         role="region"
+                         aria-labelledby="faq-question-${index}"
+                         hidden>
+                        <p>${faq.a}</p>
+                    </div>
+                </div>
+            `).join('');
+            
+            // Enhanced FAQ toggle with accessibility
+            document.querySelectorAll('.faq-question').forEach((question, index) => {
+                question.addEventListener('click', function() {
+                    const item = this.parentElement;
+                    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                    const answer = document.getElementById(`faq-answer-${index}`);
+                    
+                    // Toggle state
+                    this.setAttribute('aria-expanded', !isExpanded);
+                    answer.hidden = isExpanded;
+                    item.classList.toggle('active');
+                    
+                    // Update toggle icon
+                    const toggle = this.querySelector('.faq-toggle');
+                    toggle.textContent = isExpanded ? '+' : '−';
+                });
+                
+                // Keyboard support
+                question.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        question.click();
+                    }
+                });
+            });
+        },
+        
+        initCTAs: () => {
+            // Primary CTA
+            const primaryCTA = document.getElementById('cta-primary');
+            if (primaryCTA) {
+                primaryCTA.addEventListener('click', function() {
+                    this.classList.add('btn-loading');
+                    this.innerHTML = '<span class="spinner"></span> Starting build process...';
+                    
+                    setTimeout(() => {
+                        alert('Build process initiated! You would be redirected to the project setup.');
+                        this.classList.remove('btn-loading');
+                        this.innerHTML = '<span class="btn-icon-left" aria-hidden="true">🚀</span> Start Building <span class="btn-icon-right" aria-hidden="true">→</span>';
+                    }, 1500);
+                });
+                
+                // Add attention pulse
+                setTimeout(() => {
+                    primaryCTA.classList.add('attention-pulse');
+                    setTimeout(() => {
+                        primaryCTA.classList.remove('attention-pulse');
+                    }, 8000);
+                }, 2000);
+            }
+            
+            // Secondary CTA
+            const secondaryCTA = document.getElementById('cta-secondary');
+            if (secondaryCTA) {
+                secondaryCTA.addEventListener('click', () => {
+                    alert('Demo view would open in a new tab showing interactive examples and code samples.');
+                });
+            }
+            
+            // Contact trigger
+            const contactTrigger = document.getElementById('contact-trigger');
+            if (contactTrigger) {
+                contactTrigger.addEventListener('click', () => {
+                    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                    document.querySelector('.contact-title').classList.add('attention-pulse');
+                    setTimeout(() => {
+                        document.querySelector('.contact-title').classList.remove('attention-pulse');
+                    }, 2000);
+                });
+            }
+            
+            // Final CTA
+            const finalCTA = document.getElementById('final-cta');
+            if (finalCTA) {
+                finalCTA.addEventListener('click', function() {
+                    this.classList.add('btn-loading');
+                    const originalText = this.innerHTML;
+                    this.innerHTML = '<span class="spinner"></span> Preparing download...';
+                    
+                    setTimeout(() => {
+                        alert('Project download started! This would trigger a ZIP file download with all source code.');
+                        this.classList.remove('btn-loading');
+                        this.innerHTML = originalText;
+                        
+                        // Show download confirmation
+                        const note = this.nextElementSibling;
+                        if (note && note.classList.contains('contact-note')) {
+                            note.innerHTML = '✅ Download complete! Check your downloads folder.';
+                            note.style.color = 'var(--color-secondary-600)';
+                        }
+                    }, 2000);
+                });
+            }
+        },
+        
+        initScrollAnimations: () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            // Observe all scroll-fade-in elements
+            document.querySelectorAll('.scroll-fade-in').forEach(el => {
+                observer.observe(el);
+            });
+        },
+        
+        initKeyboardNavigation: () => {
+            // Add focus rings for keyboard users
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Tab') {
+                    document.body.classList.add('keyboard-user');
+                }
+            });
+            
+            document.addEventListener('mousedown', () => {
+                document.body.classList.remove('keyboard-user');
+            });
+            
+            // Skip link focus
+            const skipLink = document.querySelector('.skip-link');
+            if (skipLink) {
+                skipLink.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const target = document.getElementById('main-content');
+                    if (target) {
+                        target.setAttribute('tabindex', '-1');
+                        target.focus();
+                        setTimeout(() => target.removeAttribute('tabindex'), 1000);
+                    }
+                });
+            }
+        }
+    };
+    
+    // Main initialization
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('🚀 Enhanced landing page loaded');
+        
+        // Initialize all components
+        Object.values(components).forEach(init => {
+            try {
+                init();
+            } catch (error) {
+                console.warn('Component initialization error:', error);
+            }
+        });
+        
+        // Load animated SVG
+        utils.loadSVG('hero-visual', `<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\">
+    <defs>
+        <linearGradient id=\"gradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">
+            <stop offset=\"0%\" stop-color=\"#4f46e5\" stop-opacity=\"0.8\">
+                <animate attributeName=\"stop-color\" values=\"#4f46e5;#818cf8;#4f46e5\" dur=\"4s\" repeatCount=\"indefinite\" />
+            </stop>
+            <stop offset=\"100%\" stop-color=\"#10b981\" stop-opacity=\"0.8\">
+                <animate attributeName=\"stop-color\" values=\"#10b981;#34d399;#10b981\" dur=\"4s\" repeatCount=\"indefinite\" />
+            </stop>
+        </linearGradient>
+        
+        <linearGradient id=\"gradient2\" x1=\"0%\" y1=\"100%\" x2=\"100%\" y2=\"0%\">
+            <stop offset=\"0%\" stop-color=\"#818cf8\" stop-opacity=\"0.6\">
+                <animate attributeName=\"stop-opacity\" values=\"0.6;0.3;0.6\" dur=\"3s\" repeatCount=\"indefinite\" />
+            </stop>
+            <stop offset=\"100%\" stop-color=\"#34d399\" stop-opacity=\"0.6\">
+                <animate attributeName=\"stop-opacity\" values=\"0.6;0.3;0.6\" dur=\"3s\" repeatCount=\"indefinite\" />
+            </stop>
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width=\"400\" height=\"300\" fill=\"url(#gradient1)\" rx=\"20\">
+        <animate attributeName=\"rx\" values=\"20;25;20\" dur=\"6s\" repeatCount=\"indefinite\" />
+    </rect>
+    
+    <!-- Floating Circle 1 -->
+    <circle cx=\"100\" cy=\"120\" r=\"40\" fill=\"url(#gradient2)\" opacity=\"0.8\">
+        <animate attributeName=\"cy\" values=\"120;100;120\" dur=\"4s\" repeatCount=\"indefinite\" />
+        <animate attributeName=\"opacity\" values=\"0.8;0.6;0.8\" dur=\"4s\" repeatCount=\"indefinite\" />
+    </circle>
+    
+    <!-- Floating Circle 2 -->
+    <circle cx=\"300\" cy=\"180\" r=\"30\" fill=\"url(#gradient2)\" opacity=\"0.7\">
+        <animate attributeName=\"cx\" values=\"300;280;300\" dur=\"5s\" repeatCount=\"indefinite\" />
+        <animate attributeName=\"opacity\" values=\"0.7;0.5;0.7\" dur=\"5s\" repeatCount=\"indefinite\" />
+    </circle>
+    
+    <!-- Animated Lines -->
+    <g stroke=\"white\" stroke-width=\"2\" stroke-opacity=\"0.3\">
+        <line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"100\">
+            <animate attributeName=\"x2\" values=\"150;170;150\" dur=\"3s\" repeatCount=\"indefinite\" />
+        </line>
+        <line x1=\"250\" y1=\"80\" x2=\"350\" y2=\"150\">
+            <animate attributeName=\"y1\" values=\"80;100;80\" dur=\"4s\" repeatCount=\"indefinite\" />
+        </line>
+        <line x1=\"100\" y1=\"220\" x2=\"300\" y2=\"250\">
+            <animate attributeName=\"x1\" values=\"100;120;100\" dur=\"5s\" repeatCount=\"indefinite\" />
+        </line>
+    </g>
+    
+    <!-- Floating Dots -->
+    <g fill=\"white\" opacity=\"0.6\">
+        <circle cx=\"80\" cy=\"60\" r=\"4\">
+            <animate attributeName=\"cy\" values=\"60;40;60\" dur=\"7s\" repeatCount=\"indefinite\" />
+        </circle>
+        <circle cx=\"320\" cy=\"70\" r=\"3\">
+            <animate attributeName=\"cx\" values=\"320;340;320\" dur=\"6s\" repeatCount=\"indefinite\" />
+        </circle>
+        <circle cx=\"200\" cy=\"240\" r=\"5\">
+            <animate attributeName=\"r\" values=\"5;7;5\" dur=\"4s\" repeatCount=\"indefinite\" />
+        </circle>
+        <circle cx=\"150\" cy=\"180\" r=\"4\">
+            <animate attributeName=\"opacity\" values=\"0.6;0.9;0.6\" dur=\"3s\" repeatCount=\"indefinite\" />
+        </circle>
+    </g>
+    
+    <!-- Center Element -->
+    <g transform=\"translate(200, 150)\">
+        <polygon points=\"-20,-20 20,-20 0,20\" fill=\"white\" opacity=\"0.9\">
+            <animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0\" to=\"360\" dur=\"8s\" repeatCount=\"indefinite\" />
+        </polygon>
+    </g>
+</svg>`);
+        
+        // Add loading state CSS
+        const style = document.createElement('style');
+        style.textContent = `
+            .btn-loading {
+                position: relative;
+                color: transparent !important;
+            }
+            .btn-loading .spinner {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                width: 24px;
+                height: 24px;
+            }
+            .keyboard-user *:focus {
+                outline: 2px solid var(--color-primary-500) !important;
+                outline-offset: 2px !important;
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Log initialization
+        console.log('🎯 Components initialized:', Object.keys(components).length);
+        console.log('📱 Touch device:', 'ontouchstart' in window || navigator.maxTouchPoints > 0);
+        console.log('🌀 Reduced motion:', window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    });
+    
+    // Performance monitoring (already in motion system)
+    console.log('✨ Enhanced components system ready');
+})();

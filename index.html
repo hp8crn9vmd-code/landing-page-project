@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexaFlow | 2D Motion Landing</title>
+    <meta name="description" content="A modern, 2D motion-driven landing page built with performance and accessibility in mind.">
+    
+    <!-- Open Graph & Social Meta -->
+    <meta property="og:title" content="NexaFlow | 2D Motion Landing">
+    <meta property="og:description" content="A production-grade landing page built entirely in Kaggle with 2D motion design.">
+    <meta property="og:type" content="website">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#4f46e5">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles/main.css" as="style">
+    <link rel="preload" href="scripts/main.js" as="script">
+</head>
+<body>
+    <!-- Skip to main content - Enhanced -->
+    <a href="#main-content" class="skip-link">
+        <span class="visually-hidden">Skip to main content</span>
+        <span aria-hidden="true">↓</span>
+    </a>
+
+    <div class="page-wrapper">
+        <!-- Enhanced Header with mobile menu -->
+        <header class="site-header" id="site-header" role="banner">
+            <div class="container">
+                <nav class="main-nav" aria-label="Main navigation">
+                    <a href="/" class="nav-brand" aria-label="NexaFlow home">
+                        <span class="nav-brand-icon" aria-hidden="true">✨</span>
+                        <span class="nav-brand-text">NexaFlow</span>
+                    </a>
+                    
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" 
+                            aria-label="Toggle menu" 
+                            aria-expanded="false"
+                            aria-controls="main-nav-menu">
+                        <span class="menu-icon" aria-hidden="true"></span>
+                    </button>
+                    
+                    <ul class="nav-links" id="main-nav-menu" role="menubar">
+                        <li role="none">
+                            <a href="#features" class="nav-link micro-link" role="menuitem">
+                                <span class="nav-link-icon" aria-hidden="true">🌟</span>
+                                Features
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a href="#faq" class="nav-link micro-link" role="menuitem">
+                                <span class="nav-link-icon" aria-hidden="true">❓</span>
+                                FAQ
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a href="#testimonials" class="nav-link micro-link" role="menuitem">
+                                <span class="nav-link-icon" aria-hidden="true">💬</span>
+                                Testimonials
+                            </a>
+                        </li>
+                        <li role="none">
+                            <a href="#contact" class="nav-link micro-link" role="menuitem">
+                                <span class="nav-link-icon" aria-hidden="true">📧</span>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main-content" role="main">
+            <!-- Enhanced Hero Section -->
+            <section class="hero" id="hero" aria-labelledby="hero-title">
+                <div class="container hero-container">
+                    <div class="hero-content">
+                        <div class="hero-badge" aria-hidden="true">
+                            <span class="badge-text">Built in Kaggle</span>
+                            <span class="badge-dot"></span>
+                        </div>
+                        
+                        <h1 id="hero-title" class="hero-title">
+                            <span class="title-line">Crafting Digital</span>
+                            <span class="title-line highlight">Experiences</span>
+                            <span class="title-line">with Precision</span>
+                        </h1>
+                        
+                        <p class="hero-subtitle lead">
+                            A fully <strong>2D motion‑first</strong> landing page built inside Kaggle—showcasing modern front‑end engineering, smooth animations, and clean design.
+                        </p>
+                        
+                        <div class="hero-cta">
+                            <button class="btn btn-primary btn-icon" id="cta-primary" aria-describedby="cta-primary-desc">
+                                <span class="btn-icon-left" aria-hidden="true">🚀</span>
+                                Start Building
+                                <span class="btn-icon-right" aria-hidden="true">→</span>
+                                <span id="cta-primary-desc" class="visually-hidden">
+                                    Opens a modal to start your project build process
+                                </span>
+                            </button>
+                            
+                            <button class="btn btn-secondary btn-icon" id="cta-secondary" aria-describedby="cta-secondary-desc">
+                                <span class="btn-icon-left" aria-hidden="true">👁️</span>
+                                View Live Demo
+                                <span id="cta-secondary-desc" class="visually-hidden">
+                                    Opens a live interactive demonstration
+                                </span>
+                            </button>
+                        </div>
+                        
+                        <div class="hero-stats" aria-label="Project statistics">
+                            <div class="stat">
+                                <span class="stat-number" id="stat-lines">0</span>
+                                <span class="stat-label">Lines of Code</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" id="stat-files">6</span>
+                                <span class="stat-label">Files</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" id="stat-animations">12</span>
+                                <span class="stat-label">Animations</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual" id="hero-visual" aria-hidden="true">
+                        <!-- Animated SVG will be injected by JavaScript -->
+                        <div class="visual-placeholder">
+                            <div class="spinner" role="presentation"></div>
+                            <p class="visual-loading">Loading 2D animation...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Scroll indicator -->
+                <a href="#features" class="scroll-indicator" aria-label="Scroll to features section">
+                    <span class="scroll-text" aria-hidden="true">Explore</span>
+                    <span class="scroll-arrow" aria-hidden="true">↓</span>
+                </a>
+            </section>
+
+            <!-- Enhanced Features Section -->
+            <section class="features" id="features" aria-labelledby="features-title">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 id="features-title" class="section-title">
+                            <span class="section-title-line">Designed for</span>
+                            <span class="section-title-line highlight">Maximum Impact</span>
+                        </h2>
+                        <p class="section-subtitle lead">
+                            Every component is crafted with attention to detail, performance, and user experience.
+                        </p>
+                    </div>
+                    
+                    <div class="features-grid" id="features-container" role="list">
+                        <!-- Features will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Section (New) -->
+            <section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 id="testimonials-title" class="section-title">
+                            <span class="section-title-line">Trusted by</span>
+                            <span class="section-title-line highlight">Developers</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            See what others are saying about this Kaggle-to-GitHub workflow.
+                        </p>
+                    </div>
+                    
+                    <div class="testimonials-grid" id="testimonials-container" role="list">
+                        <!-- Testimonials will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Enhanced FAQ Section -->
+            <section class="faq" id="faq" aria-labelledby="faq-title">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 id="faq-title" class="section-title">
+                            <span class="section-title-line">Frequently Asked</span>
+                            <span class="section-title-line highlight">Questions</span>
+                        </h2>
+                        <p class="section-subtitle">
+                            Everything you need to know about building and deploying from Kaggle.
+                        </p>
+                    </div>
+                    
+                    <div class="faq-container" id="faq-container" role="list">
+                        <!-- FAQ will be populated by JavaScript -->
+                    </div>
+                    
+                    <div class="faq-cta">
+                        <p class="faq-cta-text">Still have questions?</p>
+                        <button class="btn btn-secondary btn-sm" id="contact-trigger">
+                            <span class="btn-icon-left" aria-hidden="true">💬</span>
+                            Contact Support
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact CTA Section (New) -->
+            <section class="contact-cta" id="contact" aria-labelledby="contact-title">
+                <div class="container">
+                    <div class="contact-card">
+                        <div class="contact-content">
+                            <h2 id="contact-title" class="contact-title">Ready to Launch Your Project?</h2>
+                            <p class="contact-subtitle">
+                                Get the complete Kaggle-to-GitHub workflow with source code and documentation.
+                            </p>
+                            <div class="contact-features">
+                                <div class="contact-feature">
+                                    <span class="feature-icon" aria-hidden="true">✅</span>
+                                    <span>Full source code</span>
+                                </div>
+                                <div class="contact-feature">
+                                    <span class="feature-icon" aria-hidden="true">✅</span>
+                                    <span>Step-by-step guide</span>
+                                </div>
+                                <div class="contact-feature">
+                                    <span class="feature-icon" aria-hidden="true">✅</span>
+                                    <span>GitHub automation</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-action">
+                            <button class="btn btn-primary btn-lg" id="final-cta">
+                                <span class="btn-icon-left" aria-hidden="true">📦</span>
+                                Download Complete Project
+                                <span class="btn-icon-right" aria-hidden="true">↓</span>
+                            </button>
+                            <p class="contact-note">
+                                Includes HTML, CSS, JS, Python scripts, and deployment guide.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Enhanced Footer -->
+        <footer class="site-footer" id="site-footer" role="contentinfo">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <div class="footer-brand">
+                            <span class="footer-brand-icon" aria-hidden="true">✨</span>
+                            <span class="footer-brand-text">NexaFlow</span>
+                        </div>
+                        <p class="footer-description">
+                            A demonstration of modern front‑end engineering built entirely within Kaggle Notebooks.
+                        </p>
+                        <div class="footer-social" aria-label="Social links">
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <span class="social-icon" aria-hidden="true">🐙</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <span class="social-icon" aria-hidden="true">🐦</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <span class="social-icon" aria-hidden="true">💼</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h3 class="footer-heading">Project</h3>
+                        <ul class="footer-links" role="list">
+                            <li><a href="#features" class="footer-link micro-link">Features</a></li>
+                            <li><a href="#testimonials" class="footer-link micro-link">Testimonials</a></li>
+                            <li><a href="#faq" class="footer-link micro-link">FAQ</a></li>
+                            <li><a href="#contact" class="footer-link micro-link">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h3 class="footer-heading">Resources</h3>
+                        <ul class="footer-links" role="list">
+                            <li><a href="#" class="footer-link micro-link">Documentation</a></li>
+                            <li><a href="#" class="footer-link micro-link">GitHub Repository</a></li>
+                            <li><a href="#" class="footer-link micro-link">Kaggle Notebook</a></li>
+                            <li><a href="#" class="footer-link micro-link">Tutorial</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h3 class="footer-heading">Legal</h3>
+                        <ul class="footer-links" role="list">
+                            <li><a href="#" class="footer-link micro-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-link micro-link">Terms of Service</a></li>
+                            <li><a href="#" class="footer-link micro-link">License</a></li>
+                            <li><a href="#" class="footer-link micro-link">Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p class="footer-copyright">
+                        © <span id="current-year">2024</span> NexaFlow Landing Page. Built in Kaggle. Demonstration purposes only.
+                    </p>
+                    <p class="footer-credits">
+                        Made with <span class="heart" aria-hidden="true">❤️</span> by the Kaggle community
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Load JavaScript -->
+    <script src="scripts/main.js" defer></script>
+    
+    <!-- Inline script for critical functionality -->
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Basic no-JS fallback
+        document.documentElement.classList.add('js-enabled');
+    </script>
+</body>
+</html>

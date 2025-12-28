@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: /sitemap.xml
+
+# Kaggle-specific
+User-agent: GPTBot
+Disallow: /

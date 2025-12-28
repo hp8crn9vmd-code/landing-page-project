@@ -1,0 +1,38 @@
+{
+  "project": {
+    "name": "NexaFlow Landing Page",
+    "version": "1.0.0",
+    "description": "A 2D motion landing page built in Kaggle"
+  },
+  "deployment": {
+    "platform": "GitHub Pages",
+    "branch": "main",
+    "source_dir": "/",
+    "build_command": null,
+    "output_dir": "/"
+  },
+  "requirements": {
+    "git": ">=2.25.0",
+    "python": ">=3.8"
+  },
+  "secrets": {
+    "github_token": {
+      "description": "GitHub Personal Access Token with repo scope",
+      "kaggle_secret_name": "GITHUB_TOKEN",
+      "permissions": [
+        "repo",
+        "workflow"
+      ]
+    }
+  },
+  "files_to_exclude": [
+    ".gitignore",
+    ".DS_Store",
+    "__pycache__/",
+    "*.pyc",
+    "kaggle/",
+    "input/",
+    "working/",
+    ".ipynb_checkpoints/"
+  ]
+}
