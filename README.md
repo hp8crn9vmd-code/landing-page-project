@@ -98,7 +98,3 @@ Built with Kaggle-first constraints in mind.
 2. Development to implement CMS field validation and i18n key system
 3. QA to conduct pseudo-localization and RTL testing
 
-## Important Security Note
-⚠️ **DO NOT INCLUDE ANY TOKENS OR SECRETS IN THIS NOTEBOOK**  
-When pushing to GitHub, use Kaggle secrets for any API keys, credentials, or sensitive data.
->>>>>>> 1fe3ee5ef6409fd076325c613edf3918bb976fc5
